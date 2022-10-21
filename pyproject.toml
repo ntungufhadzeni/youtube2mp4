@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube2mp4"
+version = "0.0.1"
+authors = [
+  { name="Ntungufhadzeni Mbudzeni", email="mudzeni@mrhconsult.co.za" },
+]
+description = "Youtube downloader"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "pytube==12.1.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ntungufhadzeni/pypdf2docx"
+"Bug Tracker" = "https://github.com/ntungufhadzeni/pypdf2docx/issues"
